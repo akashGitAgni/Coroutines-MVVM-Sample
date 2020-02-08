@@ -66,10 +66,6 @@ class SearchFragment : Fragment() {
             }
         })
 
-        viewModel.getSearchResults("SanFrancisco")
-
-
-
         searchButton?.setOnClickListener {
             val text = searchText?.text?.toString()
 
